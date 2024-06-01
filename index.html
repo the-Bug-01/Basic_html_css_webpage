@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage with semantic HTML and CSS styling">
+    <title>Simple Webpage</title>
+
+    <!--<link rel="stylesheet" href="task1.css">-->
+</head>
+<Style>
+    /* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(219, 50, 50);
+}
+
+body {
+    font-family: Brush Script MT, sans-serif;
+    line-height: 2.0;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url('Ashoka_Chakra.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center 96px;
+    background-size: 50%;
+    font-size: 6mm;
+}
+
+header {
+    background: orange;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header p {
+    margin: 0.5rem 0;
+    color: rgb(67, 15, 209);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #18d30e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+</Style>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <nav>
+            <a href="#home"> Home</a> &nbsp &nbsp &nbsp;
+            <a href="#about">About</a>&nbsp &nbsp &nbsp;
+            <a href="#contact">Contact</a> &nbsp &nbsp &nbsp;
+           
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of the webpage.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This section contains information about the webpage.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This section contains contact information.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
